@@ -22,7 +22,7 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - run: unzip -q RouteGlass-source.zip
+       - run: unzip -q RouteGlass-GitHub-Build.zip
 
       - run: gradle -p RouteGlass assembleDebug
 
